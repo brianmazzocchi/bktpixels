@@ -159,6 +159,10 @@
   .logo {
     width: 80%;
   }
+
+  .container {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 428px) {
