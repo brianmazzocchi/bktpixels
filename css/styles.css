@@ -130,6 +130,7 @@
     font-family: Montserrat;
     font-size: 0.9rem !important;
     font-weight: bold;
+    text-decoration: none!important;
   }
 
   .menu-btn__burger {
@@ -176,6 +177,11 @@
   font-family: Montserrat;
   font-size: 1.1rem;
   font-weight: bold;
+  text-decoration: none!important;
+}
+
+.text-white:hover {
+  color:#8cb6e2;
 }
 
 ul#menu {
@@ -278,6 +284,8 @@ li:last-of-type:hover {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+
+  scroll-margin-top: 55px;
 }
 
 .cards {
@@ -315,6 +323,7 @@ img.img {
   background-color: rgb(255, 255, 255);
   min-height: 10em;
   padding: 3.5em 0 0 0;
+  scroll-margin-top: 40px;
 }
 
 .container-customers {
