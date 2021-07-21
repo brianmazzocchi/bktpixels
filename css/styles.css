@@ -299,6 +299,7 @@ li:last-of-type:hover {
 
 img.img {
   border-radius: 20px 20px 0 0;
+  max-height: 255px !important;
 }
 
 .card-container {
